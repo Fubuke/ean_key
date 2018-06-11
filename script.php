@@ -1,4 +1,6 @@
 <?php
+// php script.php "mon_code_barre"
+
     // on récupère l'input en tableau de caractère
     $input = str_split($argv[1]);
     if(count($input) !== 12) {
